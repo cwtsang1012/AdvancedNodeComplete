@@ -33,3 +33,15 @@ doHash();
 doHash();
 doHash();
 doHash();
+
+/*
+Output log order:
+
+doRequest()
+doHash()
+readFile()
+doHash()
+doHash()
+doHash()
+
+*/
